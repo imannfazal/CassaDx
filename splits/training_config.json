@@ -1,0 +1,30 @@
+{
+  "split_seed": 42,
+  "split_fractions": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "label_to_disease": {
+    "0": "Cassava Bacterial Blight (CBB)",
+    "1": "Cassava Brown Streak Disease (CBSD)",
+    "2": "Cassava Green Mottle (CGM)",
+    "3": "Cassava Mosaic Disease (CMD)",
+    "4": "Healthy"
+  },
+  "training_class_counts": {
+    "4": 1804,
+    "0": 761,
+    "3": 9211,
+    "2": 1670,
+    "1": 1532
+  },
+  "class_weights": {
+    "4": 1.6605321507760533,
+    "0": 3.9363994743758215,
+    "3": 0.3252198458364998,
+    "2": 1.7937724550898204,
+    "1": 1.9553524804177547
+  },
+  "class_weight_formula": "training_total / (num_classes * class_count)"
+}
