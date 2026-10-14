@@ -1,0 +1,15 @@
+# Dataset and downloaded archives
+data/
+*.zip
+
+# Python environment and temporary files
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Saved models
+models/
+checkpoints/
+
+# macOS files
+.DS_Store
