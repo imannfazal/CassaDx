@@ -1,0 +1,18 @@
+{
+  "colour_mode": "RGB",
+  "image_size": [
+    256,
+    256
+  ],
+  "resize_method": "direct_resize",
+  "interpolation": "bilinear",
+  "output_dtype": "uint8",
+  "pixel_range": [
+    0,
+    255
+  ],
+  "training_horizontal_flip_probability": 0.5,
+  "augmentation_seed": 42,
+  "validation_test_random_augmentation": false,
+  "normalization": "handled_inside_hybrid_model_per_branch"
+}
