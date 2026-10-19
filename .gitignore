@@ -14,3 +14,5 @@ checkpoints/
 # macOS files
 .DS_Store
 .venv-train/
+
+features/
